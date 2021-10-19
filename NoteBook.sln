@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NoteBook.Web", "NoteBook.Web\NoteBook.Web.csproj", "{E5A4427F-6FC2-4ED3-B7A7-E6ED4B14F5EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoteBook.Models", "NoteBook.Models\NoteBook.Models.csproj", "{1C319D31-C5A5-4409-80FF-2B4CEA216175}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NoteBook.Models", "NoteBook.Models\NoteBook.Models.csproj", "{1C319D31-C5A5-4409-80FF-2B4CEA216175}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoteBook.Repository", "NoteBook.Repository\NoteBook.Repository.csproj", "{BAEAE7A0-1FA5-4EB6-805B-DC46F724D284}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{1C319D31-C5A5-4409-80FF-2B4CEA216175}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C319D31-C5A5-4409-80FF-2B4CEA216175}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C319D31-C5A5-4409-80FF-2B4CEA216175}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAEAE7A0-1FA5-4EB6-805B-DC46F724D284}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAEAE7A0-1FA5-4EB6-805B-DC46F724D284}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAEAE7A0-1FA5-4EB6-805B-DC46F724D284}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAEAE7A0-1FA5-4EB6-805B-DC46F724D284}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
