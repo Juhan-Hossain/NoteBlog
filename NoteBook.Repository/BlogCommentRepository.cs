@@ -86,8 +86,8 @@ namespace NoteBook.Repository
 
             newBlogCommentId = newBlogCommentId ?? blogCommentCreate.BlogCommentId;
 
-            Photo photo = await GetAsync(newBlogCommentId);
-            return photo;
+            BlogComment blogComment = await GetAsync(newBlogCommentId.Value);
+            return blogComment;
         }
     }
 }
